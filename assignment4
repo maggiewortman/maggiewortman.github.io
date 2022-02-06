@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Assignment 4</title>
+  </head>
+    <style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:0;}
+    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    overflow:hidden;padding:30px 30px;word-break:normal;height:3em}
+    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+    font-weight:normal;overflow:hidden;padding:30px 30px;word-break:normal;}
+    .tg .tg-gseg{background-color:#6434fc;text-align:left;vertical-align:top}
+    .tg .tg-0lax{text-align:left;vertical-align:top}
+    </style>
+  <body>
+  <div>
+  <h2>Table of Contents</h2>
+  <ul>
+    <li><a href="#Challenge2"><h4>Challenge 2: Crease a Chessboard</h4></a> </li>
+    <li><a href="#Challenge3"><h4>Challenge 3: Crease a Form</h4></a> </li>
+    <li><a href="#Challenge5"><h4>Challenge 5: Accessibility Statement</h4></a> </li>
+  </ul>
+  </div>
+  <div>
+  <h1>Part 1: HTML Challenges</h1>
+  <h2 id="Challenge2">Challenge 2: Create a Chessboard</h2>
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-gseg"><p style="text-align:center">&#x265C;</p></th>
+        <th class="tg-0lax"><p style="text-align:center">&#x265E;</p></th>
+        <th class="tg-gseg"><p style="text-align:center">&#x265D;</p></th>
+        <th class="tg-0lax"><p style="text-align:center">&#x265B;<p></th>
+        <th class="tg-gseg"><p style="text-align:center">&#x265A;</p></th>
+        <th class="tg-0lax"><p style="text-align:center">&#x265D;</p></th>
+        <th class="tg-gseg"><p style="text-align:center">&#x265E;<p></th>
+        <th class="tg-0lax"><p style="text-align:center">&#x265C;<p></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0lax"><p style="text-align:center">&#x265F;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x265F;</p></td>
+        <td class="tg-0lax"><p style="text-align:center">&#x265F;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x265F;</p></td>
+        <td class="tg-0lax"><p style="text-align:center">&#x265F;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x265F;</p></td>
+        <td class="tg-0lax"><p style="text-align:center">&#x265F;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x265F;</p></td>
+      </tr>
+      <tr>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+      </tr>
+      <tr>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+        <td class="tg-0lax"></td>
+        <td class="tg-gseg"></td>
+      </tr>
+      <tr>
+        <td class="tg-gseg"><p style="text-align:center">&#x2659;</p></td>
+        <td class="tg-0lax"><p style="text-align:center">&#x2659;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x2659;</p></td>
+        <td class="tg-0lax"><p style="text-align:center">&#x2659;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x2659;</p></td>
+        <td class="tg-0lax"><p style="text-align:center">&#x2659;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x2659;</p></td>
+        <td class="tg-0lax"><p style="text-align:center">&#x2659;</p></td>
+      </tr>
+      <tr>
+        <td class="tg-0lax"><p style="text-align:center">&#x2656;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x2658;</p></td>
+        <td class="tg-0lax"><p style="text-align:center">&#x2657;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x2655;</p></td>
+        <td class="tg-0lax"><p style="text-align:center">&#x2654;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x2657;</p></td>
+        <td class="tg-0lax"><p style="text-align:center">&#x2658;</p></td>
+        <td class="tg-gseg"><p style="text-align:center">&#x2656;</p></td>
+      </tr>
+    </tbody>
+    </table>
+    </div>
+    <p style="font-size:15px:text-align"
+
+    <div>
+    <h2 id="Challenge3">Challenge 3: Create a Form</h2>
+    <form>
+      <p>What is your name?</p>
+      <input type="text">
+      </input>
+      <p>What year are you in school?</p>
+      <input type="checkbox" id="Freshman">
+        <label for="Freshman"> Freshman </label><br>
+      <input type="checkbox" id="Sophomore">
+        <label for="Sophomore"> Sophomore </label><br>
+      <input type="checkbox" id="Junior">
+        <label for="Junior"> Junior </label><br>
+      <input type="checkbox" id="Senior">
+        <label for="Senior"> Senior </label><br>
+      </input>
+      <p>Ready to submit your answers?</p>
+      <input type="submit">
+      </input>
+    </form>
+    </div>
+
+    <div>
+    <h2 id="Challenge5">Challenge 5: Accessibility Statement</h2>
+    <p>Some accessibility concerns that these challenges might present to the viewer include text alternatives and color/color contrast. For example, visual or hearing impairments may stop some users from being able to see or hear some content. After doing some solution research, I learned that this problem can be addressed using the alt attribute, which provides a description of an image and can be picked up by a screenreading in order to be read aloud to the user. With challenge 2 on the other
+    hand, someone who is color blind may not be able to view the content as I intended. One way this can be addressed is by not relying on color alone for information, and to ensure that the website's text color always contrasts well with the background color.
+    </div>
+</html>
