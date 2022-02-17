@@ -1,0 +1,29 @@
+p {
+  color: red;
+  text-align: center;
+}
+
+p {
+  color:yellow
+}
+
+p::first-letter {
+  font-size: 500%;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 300%;
+}
+
+#test-id-1 {
+  color:purple;
+}
+
+.test-class {
+  text-shadow: 2px 20px red;
+}
+
+a:hover {
+  color:white;
+}
