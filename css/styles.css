@@ -1,18 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond&display=swap');
+body {
+  background-color:white;
+}
+
 h1 {
-  color: red;
+  color: #4682B4;
   text-align: center;
   font-family: 'Bebas Neue', cursive;
 }
 
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+}
 
+h2 {
+  color: #ADD8E6;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
 }
 
 p {
-
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
 }
 
-link {
+h5 {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
 
+h4 {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h3 {
+  color: red;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+a {
+  color:#F08080;
+}
+
+a:hover {
+  color:red;
 }
