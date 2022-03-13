@@ -1,21 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond&display=swap');
 body {
-  background-color:white;
+  background-color: white;
+}
+
+.wrapper {
+  display: flex;
 }
 
 .box {
-  text-align: left;
-  float:left;
+  flex-grow: 1;
+  text-align: center;
+}
+
+h6 {
+  display: inline-block;
+  text-align: center;
+  font-size: 100%;
+  background: #D79158;
+  color: white;
+  padding: 10px 20px 5px 40px;
+  margin: 20px 10px 20px 10px;
+}
+
+#home {
+ margin: 0 auto;
 }
 
 #denver {
-  width: 250px;
+  width: 660px;
+}
+
+#title {
+  color: black;
+  text-align: center;
+  font-family: retiro-std-24pt, sans-serif;
+  font-size: 350%;
 }
 
 h1 {
-  color: black;
+  font-family: 'Cormorant Garamond', serif;
   text-align: left;
-  font-family: retiro-std-24pt, sans-serif;
+  color: #647880;
+  font-size: 200%
+}
+
+#sub {
+  color: #647880;
+  text-align: left;
 }
 
 img {
@@ -25,8 +56,14 @@ img {
   float: right;
 }
 
-#me {
-  width:500px
+#enc1 {
+  text-align: center;
+  width: 200px;
+}
+
+#nyc {
+  width:500px;
+  float: left;
 }
 
 h2 {
@@ -38,11 +75,14 @@ h2 {
 p {
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
+  font-size: 140%;
 }
 
 h5 {
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
+  font-size: 100%;
+  width: 500px;
 }
 
 h4 {
@@ -51,13 +91,19 @@ h4 {
 }
 
 h3 {
-  color: red;
+  color: black;
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
+  font-size: 175%;
 }
 
 a {
-  color:#F08080;
+  color:#647880;
+}
+
+#project {
+  color:#D79158;
+  font-size: 110%;
 }
 
 a:hover {
