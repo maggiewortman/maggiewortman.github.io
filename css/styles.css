@@ -1,6 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond&display=swap');
+
+* {
+ margin: 5;
+ padding: 0;
+ box-sizing: border-box;
+}
+
 body {
   background-color: white;
+}
+
+.navbar {
+ display: flex;
+ align-items: center;
+ text-align: center;
+ justify-content: space-between;
+ padding: 1px;
+ background-color: white;
+}
+
+.menu {
+ display: flex;
+ gap: 1em;
+ font-size: 12px;
+}
+
+.menu li {
+ padding: 5px 14px;
+}
+
+li {
+ list-style: none;
 }
 
 .wrapper {
@@ -49,21 +79,30 @@ h1 {
   text-align: left;
 }
 
-img {
+#head {
   display: block;
   margin-right: auto;
   width: auto;
   float: right;
 }
 
-#enc1 {
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   width: 200px;
+  border: 1px solid black;
 }
 
 #nyc {
   width:500px;
   float: left;
+}
+
+#text {
+  color: #D79158;
+  text-decoration: underline;
 }
 
 h2 {
@@ -104,10 +143,11 @@ a {
 #project {
   color:#D79158;
   font-size: 110%;
+  text-align: center;
 }
 
 a:hover {
-  color:red;
+  color:#D79158;
 }
 
 /* media queries */
@@ -117,6 +157,7 @@ a:hover {
 img {
   display: flex;
   flex-flow: row wrap;
+  padding: 20px;
 }
 
 }
