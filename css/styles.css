@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond&display=swap');
 
 * {
- margin: 5;
+ margin: 5px;
  padding: 0;
  box-sizing: border-box;
 }
@@ -13,7 +13,6 @@ body {
 .navbar {
  display: flex;
  align-items: center;
- text-align: center;
  justify-content: space-between;
  padding: 1px;
  background-color: white;
