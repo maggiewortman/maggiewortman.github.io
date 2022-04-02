@@ -116,6 +116,25 @@ p {
   font-size: 140%;
 }
 
+.slides {
+  width: 400px;
+}
+
+#welcome {
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 2px solid black;
+  background: #ADD8E6;
+  color: black;
+  border-radius: 10px;
+  padding: 3px 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
 h5 {
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
