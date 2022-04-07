@@ -12,7 +12,7 @@ async function getQuote() {
     }
     const = json = await response.json();
     console.log(json);
-    displayQuote(json.fact);
+    displayQuote(json.fact); //change if API doesn't have fact section, maybe quote?
   } catch(err) {
     console.log(err)
     alert('Failed');
@@ -21,10 +21,10 @@ async function getQuote() {
 
 function displayQuote(quote) {
   const quoteText = document.querySelector('#js-quote-text')
-  quoteText.textConstant = quote;
+  quoteText.textContent = quote;
 }
 
-const endpoint = 'https://catfact.ninja/fact'
+const endpoint = 'https://catfact.ninja/fact'; //change for my own
 
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('clcik', getQuote);
