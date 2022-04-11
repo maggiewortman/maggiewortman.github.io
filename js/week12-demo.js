@@ -10,9 +10,10 @@ async function getQuote() {
     if (!response.ok) {
       throw Error(response.statusText)
     }
-    const = json = await response.json();
+    const json = await response.json();
     console.log(json);
-    displayQuote(json.fact); //change if API doesn't have fact section, maybe quote?
+    displayQuote(json.joke); //change if API doesn't have fact section, maybe quote?, author
+
   } catch(err) {
     console.log(err)
     alert('Failed');
@@ -24,7 +25,6 @@ function displayQuote(quote) {
   quoteText.textContent = quote;
 }
 
-const endpoint = 'https://catfact.ninja/fact'; //change for my own
-
+const endpoint = 'https://v2.jokeapi.dev/joke/Any'; //change for my own
 const quoteButton = document.querySelector('#js-new-quote');
-quoteButton.addEventListener('clcik', getQuote);
+quoteButton.addEventListener('click', getQuote);
