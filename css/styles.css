@@ -10,6 +10,17 @@ body {
   background-color: white;
 }
 
+.randomize {
+  background-color: #D79158;
+}
+
+.story {
+  background-color: #647880;
+  color: white;
+  font-size: 125%;
+  width: 300px;
+}
+
 .navbar {
  display: flex;
  align-items: center;
