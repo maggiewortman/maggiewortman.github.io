@@ -11,25 +11,25 @@ console.log("PROBLEM 1")
 
 let employees = [
     {
-      "first_name": "Sam",
-      "department": "Tech",
-      "designation": "Manager",
-      "salary": 40000,
-      "raise eligible": true
+      first_name: "Sam",
+      department: "Tech",
+      designation: "Manager",
+      salary: 40000,
+      raise: true
     },
     {
-      "first_name": "Mary",
-      "department": "Finance",
-      "designation": "Trainee",
-      "salary": 18500,
-      "raise eligible": true
+      first_name: "Mary",
+      department: "Finance",
+      designation: "Trainee",
+      salary: 18500,
+      raise: true
     },
     {
-      "first_name": "Bill",
-      "department": "HR",
-      "designation": "Executive",
-      "salary": 21200,
-      "raise eligible": false
+      first_name: "Bill",
+      department: "HR",
+      designation: "Executive",
+      salary: 21200,
+      raise: false
     },
   ];
 
@@ -52,32 +52,10 @@ console.log("PROBLEM 2");
  **/
 
 let company = {
-    "companyName": "Tech Stars",
-    "website": "www.techstars.site",
-    "employees": [
-      {
-        "first_name": "Sam",
-        "department": "Tech",
-        "designation": "Manager",
-        "salary": 40000,
-        "raise eligible": true
-      },
-      {
-        "first_name": "Mary",
-        "department": "Finance",
-        "designation": "Trainee",
-        "salary": 18500,
-        "raise eligible": true
-      },
-      {
-        "first_name": "Bill",
-        "department": "HR",
-        "designation": "Executive",
-        "salary": 21200,
-        "raise eligible": false
-      }
-    ]
-}
+    companyName: "Tech Stars",
+    website: "www.techstars.site",
+    employees: employees,
+};
 
 console.log(company);
 
@@ -158,4 +136,4 @@ console.log("PROBLEM 6");
    employees[id].wfh=peopleWorkingFromHome.includes(employees[id.firstName]);
  }
 
- console.log(emloyees);
+ console.log(employees);
