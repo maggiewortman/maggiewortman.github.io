@@ -9,23 +9,23 @@ console.log("PROBLEM 1")
  * Print JSON(s) to console.
  **/
 
-let employees = [
+const employees = [
     {
-      first_name: "Sam",
+      firstName: "Sam",
       department: "Tech",
       designation: "Manager",
       salary: 40000,
       raise: true
     },
     {
-      first_name: "Mary",
+      firstName: "Mary",
       department: "Finance",
       designation: "Trainee",
       salary: 18500,
       raise: true
     },
     {
-      first_name: "Bill",
+      firstName: "Bill",
       department: "HR",
       designation: "Executive",
       salary: 21200,
@@ -33,7 +33,7 @@ let employees = [
     },
   ];
 
-console.log(employees.employees);
+console.log(employees);
 
 //console.log(fam.famName);
 //console.log([fam['famName']);
@@ -51,7 +51,7 @@ console.log("PROBLEM 2");
  * Print JSON to console.
  **/
 
-let company = {
+const company = {
     companyName: "Tech Stars",
     website: "www.techstars.site",
     employees: employees,
@@ -72,11 +72,11 @@ console.log("PROBLEM 3");
  **/
 
 const newHire = {
-  "first_name": "Anna",
-  "department": "Tech",
-  "designation": "Executive",
-  "salary": 25600,
-  "raise eligible": false
+  firstName: "Anna",
+  department: "Tech",
+  designation: "Executive",
+  salary: 25600,
+  raise: false
 }
 
 company.employees.push(newHire); // the push() method adds a value to an object/array.
@@ -117,7 +117,7 @@ console.log("PROBLEM 5");
    }
  }
 
- console.log(employees);
+console.log(employees);
 
 console.log("PROBLEM 6");
 /**
