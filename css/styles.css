@@ -181,7 +181,7 @@ a:hover {
 
 /* media queries */
 /*for mobile*/
-@media screen and (min-width: 400px) and (min-height: 700px) {
+@media only screen and (max-device-width: 400px) and (max-device-height: 700px) {
 
 img {
   display: flex;

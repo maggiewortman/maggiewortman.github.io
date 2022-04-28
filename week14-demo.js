@@ -59,7 +59,7 @@ function addHero(obj, heroName, heroAge, heroIdentity, heroPowers) {
 //  uncomment this line to add a hero; notice how it pushes fourth entry to the second line?
 //  try changing the width of the body and of the article in the week14-demo.css file
 
-//addHero(superHeroes, "The Batman", 45, "Bruce Wayne", ["money", "technology", "Alfred"]);
+addHero(superHeroes, "The Batman", 45, "Bruce Wayne", ["money", "technology", "Alfred"]);
 
 // Function to populate header... try to add the location of the secret base!
 
