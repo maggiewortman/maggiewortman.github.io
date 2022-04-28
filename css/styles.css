@@ -185,15 +185,14 @@ a:hover {
 
 .box {
   width: 50%;
-  display: -moz-box;
-  -moz-box-orient: vertical;
+  flex-direction: vertical;
 }
 
-img {
+/*img {
   display: flex;
   flex-flow: row wrap;
   padding: 20px;
-}
+}*/
 
 #denver {
   width: 50%;
