@@ -182,39 +182,29 @@ a:hover {
 
 /* media queries */
 /*for mobile*/
-@media screen and (max-width: 400px) and (max-height: 700px) {
-
-body {
-  background-color: red;
-}
+@media screen and (min-width: 400px) and (max-width: 700px) {
 
 h1 {
-  font-size: 50%
+  font-size: 100%
+}
+
+#denver {
+  width: 100%;
+  position: absolute;
+  top: 10;
+  left: 10;
 }
 
 .box {
   width: 50%;
-  flex-direction: vertical;
-}
-
-/*img {
-  display: flex;
-  flex-flow: row wrap;
-  padding: 20px;
-}*/
-
-#denver {
-  width: 50%;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 }
 
 /*for web*/
-@media screen and (min-width: 1900px) and (min-height: 1100px) {
-
-body {
-  background-color: blue;
-}
+@media screen and (min-width: 701px) and (max-width: 2000px) {
 
 p {
   display: grid;
