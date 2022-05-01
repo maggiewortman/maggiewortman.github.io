@@ -25,15 +25,21 @@ body {
  display: flex;
  align-items: center;
  justify-content: space-between;
- padding: 1px;
- background-color: white;
+ padding: 0px;
+ background-color: rgba(237, 204, 178);
+ font-size: 16px;
+ height: 36px;
+}
+
+#homenav {
+  background-color: white;
 }
 
 .menu {
  flex-grow: 1;
  text-align: center;
  gap: 1em;
- font-size: 12px;
+ font-size: 16px;
 }
 
 .menu li {
@@ -56,7 +62,7 @@ li {
 h6 {
   display: inline-block;
   text-align: center;
-  font-size: 100%;
+  font-size: 110%;
   background: #D79158;
   color: white;
   padding: 10px 20px 5px 40px;
@@ -82,7 +88,11 @@ h1 {
   font-family: 'Cormorant Garamond', serif;
   text-align: left;
   color: #647880;
-  font-size: 200%
+  font-size: 300%
+}
+
+#icon {
+  width: 50px;
 }
 
 #sub {
@@ -94,16 +104,27 @@ h1 {
   display: block;
   margin-right: auto;
   width: auto;
+  height: 720px;
   float: right;
 }
 
 .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 200px;
+  height: 370px;
+  width: 370px;
   border: 1px solid black;
+}
+
+.outer {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.inner {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  width: 370px;
+  height: 370px;
 }
 
 #nyc {
@@ -150,8 +171,20 @@ p {
 h5 {
   text-align: center;
   font-family: 'Cormorant Garamond', serif;
-  font-size: 100%;
+  font-size: 110%;
   width: 500px;
+  margin-top: 60px;
+}
+
+#contact {
+  color: white;
+}
+
+iframe {
+  display: block;
+  width: 750px;
+  height: 700px;
+  float: right;
 }
 
 h4 {
@@ -187,22 +220,24 @@ a:hover {
 h1 {
   font-size: 50%;
   position: absolute;
-  top: 200px;
+  text-align: center;
+  top: 250px;
   left: 30px;
 }
 
-a {
-  position: relative;
-  top: 250px;
-  flex-grow: 1;
-  gap: 1em;
+#homea {
+  top: 300px;
+}
+
+.menu li {
+ padding: 5px 14px;
 }
 
 #denver {
   width: 500px;
   text-align: center;
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 30px;
 
 }
@@ -218,6 +253,75 @@ a {
   position: relative;
   top: 400px;
   left: 30px;
+  width: auto;
+}
+
+.navbar {
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+a {
+  position: relative;
+  text-align: center;
+  top: 0;
+}
+
+#sub {
+  position: relative;
+  text-align: center;
+  font-size: 300%;
+  top: 30px;
+}
+
+h3 {
+  position: relative;
+  text-align: center;
+  top: 35px;
+}
+
+#project {
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+
+#nyc {
+  width: 400px;
+  position: relative;
+  text-align: center;
+  top: 30px;
+}
+
+h5 {
+  position: relative;
+  text-align: center;
+  top: 325px;
+}
+
+h6 {
+  position: relative;
+  text-align: center;
+  top: 20px;
+}
+
+iframe {
+  position: relative;
+  top: 200px;
+  text-align: center;
+}
+
+#welcome {
+  position: relative;
+  text-align: center;
+  top: 40px;
+}
+
+.slides {
+  position: relative;
+  text-align: center;
+  top: 60px;
 }
 
 }
